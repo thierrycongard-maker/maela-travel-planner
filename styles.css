@@ -29,6 +29,20 @@ body {
   color: #0055cc;
   padding: 12px 25px;
   border-radius: 6px;
+  .grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.card {
+  background: white;
+  padding: 25px;
+  text-align: center;
+  border: 1px solid #dbe7ff;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #00306b;
+}
   border: none;
   font-size: 1rem;
   cursor: pointer;
