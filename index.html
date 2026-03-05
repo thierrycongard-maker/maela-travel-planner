@@ -26,5 +26,28 @@
     <div class="card"><h3>Chicago</h3></div>
   </div>
 </section>
+  <section id="planifier" class="section">
+  <h2>Planifiez votre voyage</h2>
+  <form id="travel-form" class="form-box">
+    <label>Destination
+      <select id="destination">
+        <option>New York</option>
+        <option>Los Angeles</option>
+        <option>Miami</option>
+      </select>
+    </label>
+    <label>Date de départ
+      <input type="date" id="start">
+    </label>
+    <label>Date de retour
+      <input type="date" id="end">
+    </label>
+    <label>Voyageurs
+      <input type="number" min="1" id="people" value="1">
+    </label>
+    <button class="cta" type="submit">Générer l'itinéraire</button>
+  </form>
+  <div id="result" class="result hidden"></div>
+</section>
 </body>
 </html>
